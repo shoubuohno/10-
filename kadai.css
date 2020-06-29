@@ -6,7 +6,7 @@
 header {
 	background-color: #FF9A4B;
 	height: 50px;
-	width: auto;
+	width: 100% ;
 }
 main{
 	width: 960px;
@@ -14,7 +14,7 @@ main{
 	display: block;
 
 }
-.clearfix::after{
+.clearfix::after {
 	content:"";
     display:block;
     clear:both;
@@ -71,28 +71,33 @@ span{
 footer{
       background-color: #AAAAAA;
       height: 50px;
-      width: auto;
+      width: 100% ;
 }
 @media screen and (max-width:768px){
-	.main{
-		width: 100%;
+	main{
+	width: 100%;
 	}
 	.step-box1{
-		width: 90%;
+		width: 90% ;
+		margin: auto;
 		margin-bottom: 20px;
 		float: none;
+
 	}
 	.step-box2{
-		width: 90%;
+		width: 90% ;
+		margin: auto;
 		margin-bottom: 20px;
 		float: none;
 	}
 	.step-box3{
-		width: 90%;
+		width: 90% ;
+		margin: auto;
 		float: none;
 	}
-	footer{
-		width: 100%
+	.img1, .img2, .img3
+	{
+		padding: auto;
 	}
 
 }
